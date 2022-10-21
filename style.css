@@ -4,6 +4,10 @@ body{
     margin: 0cm;
 }
 
+h1,h2,h3,h4,h5{
+    font-family: 'Fjalla one', sans-serif;
+}
+
 .cover {
     height: 400px;
     background-image: url("./imagenes/Cafe.jpg");
@@ -28,4 +32,17 @@ body{
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
+}
+
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.card-title{
+    min-height:3rem;
+}
+
+.card-text{
+    min-height: 10rem;
 }
